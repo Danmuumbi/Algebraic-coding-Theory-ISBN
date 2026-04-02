@@ -1,4 +1,4 @@
-## 📘 ISBN Toolkit API
+## 📘 ISBN Algebraic coding Theory
 
 **Name:** Daniel Muuo Muumbi
 ---
