@@ -1,4 +1,4 @@
-## 📘 ISBN Algebraic coding Theory
+## 📘 ISBN - Algebraic coding Theory
 
 **Name:** Daniel Muuo Muumbi
 ---
