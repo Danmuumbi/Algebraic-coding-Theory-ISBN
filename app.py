@@ -2,9 +2,6 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# -----------------------------
-# HELPER FUNCTIONS (PURE LOGIC)
-# -----------------------------
 
 def compute_isbn10_check_digit(isbn9):
     total = 0
@@ -76,9 +73,6 @@ def convert_isbn10_to_isbn13(isbn10):
     return isbn12 + check_digit
 
 
-# -----------------------------
-# API ENDPOINTS
-# -----------------------------
 
 @app.route('/isbn10/check-digit', methods=['POST'])
 def isbn10_check_digit():
@@ -146,9 +140,5 @@ def isbn13_validate():
         "valid": is_valid
     })
 
-
-# -----------------------------
-# RUN SERVER
-# -----------------------------
 if __name__ == '__main__':
     app.run(debug=True)
